@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  timescale-operator:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-08-25T15:31:26.852122827+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 6c770ed4c5dfb6738e6df39fbb6d47d38b5e4410aee56cfae4c87e146a28bf85
+    name: timescale-operator
+    type: application
+    urls:
+    - https://github.com/hyperplane-org/timescale-operator-helm/timescale-operator-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-08-25T15:31:26.85137959+02:00"
