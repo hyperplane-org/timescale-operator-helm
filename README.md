@@ -20,7 +20,21 @@ helm install timescale-operator timescale-operator/timescale-operator --namespac
 
 ## Deploy a Timescale cluster
 
-At the time only [timescale/timescaledb-multinode](https://docs.timescale.com/self-hosted/latest/multinode-timescaledb/) can be deployed.
+At the time only [timescale/timescaledb-single](https://docs.timescale.com/self-hosted/latest/install/installation-kubernetes/) and [timescale/timescaledb-multinode](https://docs.timescale.com/self-hosted/latest/multinode-timescaledb/) can be deployed.
+To deploy use the `TimescaledbMultinode` CRD installed by the operator:
+
+```yaml
+apiVersion: timescale.hyperplane.hu/v1alpha1
+kind: TimescaledbSingle
+metadata:
+  name: mycluster
+spec:
+  image:
+    pullPolicy: IfNotPresent
+    repository: timescaledev/timescaledb-ha
+    tag: pg14.6-ts2.9.1-p1
+```
+
 To deploy use the `TimescaledbMultinode` CRD installed by the operator:
 
 ```yaml
