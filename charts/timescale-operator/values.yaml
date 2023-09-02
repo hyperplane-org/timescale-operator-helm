@@ -33,7 +33,7 @@ controllerManager:
         - ALL
     image:
       repository: ghcr.io/hyperplane-org/timescale-operator
-      tag: 0.0.1
+      tag: 0.0.2
     resources:
       limits:
         cpu: 500m
