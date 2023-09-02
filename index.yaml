@@ -9,7 +9,7 @@ entries:
     name: timescale-operator
     type: application
     urls:
-    - https://github.com/hyperplane-org/timescale-operator-helm/releases/timescale-operator-0.2.0.tgz
+    - https://github.com/hyperplane-org/timescale-operator-helm/releases/download/v0.2.0/timescale-operator-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
@@ -19,6 +19,6 @@ entries:
     name: timescale-operator
     type: application
     urls:
-    - https://github.com/hyperplane-org/timescale-operator-helm/releases/timescale-operator-0.1.1.tgz
+    - https://github.com/hyperplane-org/timescale-operator-helm/releases/download/v0.1.1/timescale-operator-0.1.1.tgz
     version: 0.1.1
 generated: "2023-09-02T17:55:13.919422062+02:00"
