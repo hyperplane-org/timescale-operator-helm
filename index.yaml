@@ -2,13 +2,23 @@ apiVersion: v1
 entries:
   timescale-operator:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-08-25T15:31:26.852122827+02:00"
-    description: A Kubernetes operator for running Timescale
-    digest: 6c770ed4c5dfb6738e6df39fbb6d47d38b5e4410aee56cfae4c87e146a28bf85
+    appVersion: 0.0.2
+    created: "2023-09-02T17:55:13.920467183+02:00"
+    description: A Helm chart for deploying a Timescale operator on Kubernetes
+    digest: 3298fd27087e56a43db4410f0a12b8b33b4525ea178b18b34cea7291c717f7d1
     name: timescale-operator
     type: application
     urls:
-    - https://github.com/hyperplane-org/timescale-operator-helm/raw/main/timescale-operator-0.1.1.tgz
+    - https://github.com/hyperplane-org/timescale-operator-helm/releases/timescale-operator-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-09-02T17:55:13.920009792+02:00"
+    description: A Helm chart for deploying a Timescale operator on Kubernetes
+    digest: 1783be0b3319692b3bde1f0ac134665ea84a2810e45d0a1d953bc85f5547b326
+    name: timescale-operator
+    type: application
+    urls:
+    - https://github.com/hyperplane-org/timescale-operator-helm/releases/timescale-operator-0.1.1.tgz
     version: 0.1.1
-generated: "2023-08-25T15:31:26.85137959+02:00"
+generated: "2023-09-02T17:55:13.919422062+02:00"
